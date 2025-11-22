@@ -1,27 +1,42 @@
 {
-  "name": "auth-react-next",
+  "name": "pix-generator-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:server": "json-server server.json -p 3333 -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/cookies": "^0.7.10",
+    "axios": "^1.6.2",
+    "next": "14.0.3",
+    "next-auth": "^4.24.5",
+    "nookies": "^2.5.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-hook-form": "^7.48.2",
+    "react-imask": "^7.2.0",
+    "react-qrcode-pix": "^4.1.0",
+    "sonner": "^1.4.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.7",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "phosphor-react": "^1.4.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "typescript": "^5"
   }
 }
